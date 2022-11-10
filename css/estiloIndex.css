@@ -1,0 +1,51 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background-color: #facdeb;
+    top: 0px;
+    z-index: 1;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 5px 5px 20px black;
+}
+
+header div {
+    position: relative;
+    height: fit-content;
+    width:fit-content;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#nvTarea {
+    position: relative;
+    height: 30px;
+}
+
+header img {
+    position: relative;
+    max-height: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header button {
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.contenedor {
+    position: relative;
+    top: 100px;
+}
