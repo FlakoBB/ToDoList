@@ -1,51 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-    padding: 0px;
-    margin: 0px;
+    background-image: url(https://th.bing.com/th/id/R.0c5fb3ed07f11a70951631f27a2b34ce?rik=6qZ9PWni1o2IRg&pid=ImgRaw&r=0);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-header {
-    position: fixed;
-    height: 100px;
-    width: 100%;
-    background-color: #facdeb;
-    top: 0px;
-    z-index: 1;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    box-shadow: 5px 5px 20px black;
+.fondo {
+    max-width: 1000px;
+    background-color: rgba(123, 154, 160, .4);
+    backdrop-filter: blur(4px);
+    border-radius: 30px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-header div {
-    position: relative;
-    height: fit-content;
-    width:fit-content;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.header {
+    width: 90%;
+    border-bottom: 2px solid #49676c;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
-#nvTarea {
-    position: relative;
+.header #nvTarea {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.header #btnAdd {
+    width: 30px;
     height: 30px;
+    padding: 4px;
 }
 
-header img {
-    position: relative;
-    max-height: 30px;
-    top: 50%;
-    transform: translateY(-50%);
+.header #btnAdd img {
+    width: 100%;
+    height: 100%;
 }
 
-header button {
-    border-radius: 50%;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-
+li button {
+    width: 30px;
+    height: 30px;
+    padding: 4px;
 }
 
-.contenedor {
-    position: relative;
-    top: 100px;
+li button .imgTarea {
+    width: 100%;
+    height: 100%;
 }

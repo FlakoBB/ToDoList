@@ -8,42 +8,43 @@
     <link rel="stylesheet" href="css/estiloIndex.css">
 </head>
 <body>
-    <header>
-        <div>
-            <input id="nvTarea" type="text" placeholder="Añadir nueva tarea">
+    <div class="fondo">
+        <div class="header">
+            <label for="nvTarea">Añadir nueva tarea:</label><input id="nvTarea" type="text">
             <button id="btnAdd"><img src="imgs/plus.png"></button>
         </div>
-    </header>
-
-    <div class="contenedor">
-        <ul class="ltTareas" id="trsIncompletas"></ul>
-
-        <ul class="ltTaeas" id="trsTerminadas"></ul>
-
-        <!--
-        <ul class="ltTareas" id="trsIncompletas">
-            <li>
-                Esto es una tarea
-                <div class="btns">
-                    <button class="borra">X</button>
-                    <button class="hecho">!</button>
-                </div>
-            </li>
-        </ul>
-
-        <ul class="ltTareas" id="trsTerminadas">
-            <li>
-                Esto es una tarea terminada
-                <div class="btns">
-                    <button>X</button>
-                    <button>!</button>
-                </div>
-            </li>
-        </ul>
-        -->
-
-    </div>
     
+        <div class="contenedor">
+            <h2>Tareas incompletas</h2>
+            <ul class="ltTareas" id="trsIncompletas"></ul>
+    
+            <h2>Tareas completadas</h2>
+            <ul class="ltTaeas" id="trsTerminadas"></ul>
+    
+            <!--
+            <ul class="ltTareas" id="trsIncompletas">
+                <li>
+                    Esto es una tarea
+                    <div class="btns">
+                        <button class="borra">X</button>
+                        <button class="hecho">!</button>
+                    </div>
+                </li>
+            </ul>
+    
+            <ul class="ltTareas" id="trsTerminadas">
+                <li>
+                    Esto es una tarea terminada
+                    <div class="btns">
+                        <button>X</button>
+                        <button>!</button>
+                    </div>
+                </li>
+            </ul>
+            -->
+    
+        </div>
+    </div>    
     <script src="js/main.js"></script>
 </body>
 </html>
