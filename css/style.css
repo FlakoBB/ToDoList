@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rajdhani", sans-serif;
+}
+
+body {
+  background-image: url(https://th.bing.com/th/id/R.0c5fb3ed07f11a70951631f27a2b34ce?rik=6qZ9PWni1o2IRg&pid=ImgRaw&r=0);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
