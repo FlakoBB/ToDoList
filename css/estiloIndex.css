@@ -84,10 +84,17 @@ li button .imgTarea {
 }
 
 li {
+    width: 80%;
     margin: 10px;
     background-color: rgba(123, 154, 160, .8);
 }
 
 .btns {
     display: inline;
+}
+
+@media (min-width: 768px) {
+    .fondo {
+        max-width: 600px;
+    }
 }
