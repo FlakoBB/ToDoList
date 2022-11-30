@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rajdhani", sans-serif;
+}
+
+body {
+  background-color: #9AB5B3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem 0;
+}
+
+.fondo {
+  width: 95vw;
+  align-self: stretch;
+  background-color: #295DC4;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+.fondo .header {
+  width: 100%;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fondo .header #nvTarea {
+  flex: 1;
+  padding: 0.4rem 0.4rem 0 0.4rem;
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #1E8986;
+  outline: none;
+  text-align: center;
+  color: white;
+}
+.fondo .header #nvTarea::placeholder {
+  color: #9AB5B3;
+  font-weight: 600;
+  text-align: center;
+}
+.fondo .header #btnAdd {
+  width: 2rem;
+  padding: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: none;
+  outline: none;
+  border: none;
+}
+.fondo .header #btnAdd img {
+  width: 100%;
+}
+.fondo .header #btnAdd:hover {
+  background-color: #1E8986;
+}
+.fondo .contenedor {
+  width: 100%;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fondo .contenedor .separador {
+  align-self: stretch;
+  border: none;
+  border-top: 2px solid #1E8986;
+  margin: 0.8rem 0;
+}
+.fondo .contenedor ul {
+  align-self: stretch;
+  margin: 0 2rem;
+}
+.fondo .contenedor ul li {
+  background-color: #155351;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.2rem 0.4rem;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  margin: 0.4rem;
+  text-align: left;
+}
+.fondo .contenedor ul li .btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fondo .contenedor ul li .btns button {
+  width: 2.5rem;
+  border-radius: 50%;
+  padding: 0.2rem;
+  background: none;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.fondo .contenedor ul li .btns button img {
+  width: 100%;
+}
+.fondo .contenedor ul li .btns button:hover {
+  background-color: #1E8986;
+}
+
+@media (min-width: 768px) {
+  .fondo {
+    width: 666px;
+  }
+}
+@media (max-width: 320px) {
+  .fondo {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
